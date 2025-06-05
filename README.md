@@ -25,7 +25,8 @@ This project implements a priority-based, rate-limited data ingestion system usi
 ---
 
 ## 📥 API Endpoints
-
+https://ingestion-api-production.up.railway.app/ingest for post
+https://ingestion-api-production.up.railway.app/status/<id> for get
 ### `POST /ingest`
 
 Submit a new ingestion job.
